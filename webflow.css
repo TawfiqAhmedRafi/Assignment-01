@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;}
+
 /* overall font */
 
 .inter-normal {
@@ -33,7 +38,7 @@ nav {
  align-items: center;
  justify-content: space-between;
  margin: 0 150px;
- padding-top:20px;
+ padding-top:50px;
 
 }
 .nav-title{
@@ -61,4 +66,30 @@ nav {
     text-align: center;
     padding:0px 0 152px 0;
     margin-top: 35px;
+}
+/* body styles */
+.see-it{
+    margin: 116px 141px 0px 159px
+
+}
+.see-it-content{
+    display: flex;
+    gap: 220px;
+    align-items: center;
+}
+.div-inside{
+    margin-bottom: 23px;
+}
+.div-inside h3{
+    font-size: 35px;
+}
+.div-inside p{
+    font-size: 20px;
+    color: rgba(37, 36, 50, 0.5);
+}
+.see-img{
+    max-width: 403px;
+    max-height: 328px;
+    border-radius:48px;
+    border: none;
 }
