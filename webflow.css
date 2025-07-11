@@ -8,7 +8,7 @@
 .inter-normal {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 900;
+  
   font-style: normal;
 }
 
@@ -44,6 +44,7 @@ nav {
 .nav-title{
     color: #4E47FF;
     font-size:34px;
+    font-weight: 900;
     
 }
 /* banner styles */
@@ -68,6 +69,7 @@ nav {
     margin-top: 35px;
 }
 /* body styles */
+/* see it section */
 .see-it{
     margin: 116px 141px 0px 159px
 
@@ -93,3 +95,52 @@ nav {
     border-radius:48px;
     border: none;
 }
+/* productive section */
+.productive-users{
+    background-color: rgba(78, 71, 255, .1);
+    margin: 116px 141px 0px 159px;
+    border-radius: 24px;
+    max-width: 1140px;
+    max-height: 306px;
+}
+.product-div{
+    padding: 50px 142px;;
+}
+.product-title{
+    text-align:center ;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.listsss {
+  display: flex;
+  justify-content: center;
+  gap: 158px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.stat-number {
+  font-size: 64px;
+  font-weight: 800;
+  color: #4E47FF;
+}
+
+.stat-label {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 18px; /* adjust as needed */
+  margin-top: 8px;
+}
+/* user's say */
+.users-say{
+    margin: 137px 151px 0px 159px;
+    max-width: 1140px;
+    max-height: 342px;
+}
+.user-title{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+
