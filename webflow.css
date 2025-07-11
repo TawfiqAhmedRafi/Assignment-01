@@ -267,3 +267,34 @@ body textarea{
     margin-top: 19px;
     width: 497px;
 }
+/* footer */
+footer{
+    background-color: #FFFFFF;
+    max-width: 1440px;
+    max-height: 428px;
+    text-align: center;
+}
+
+.footer-content{
+    color: #8987A1;
+    padding-top: 8px;
+
+}
+.footer{
+    padding: 104px 400px;
+}
+.footer-header{
+    color: #4E47FF;
+    font-size: 90px;
+    font-weight: bolder;
+}
+footer ul li{
+    list-style: none;
+    display : inline-block;
+    margin: 20px 15px;
+    
+}
+footer ul li a {
+    text-decoration: none;
+    color: #8987A1;
+}
