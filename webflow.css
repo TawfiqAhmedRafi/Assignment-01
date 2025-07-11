@@ -32,7 +32,7 @@
     background-color: #f3f702; /* darker blue on hover */
 }
 /* header  */
-.header{
+header{
     background-image:url("../Assets/Hero-bg.png");
     background-size: cover;
 }
