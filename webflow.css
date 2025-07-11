@@ -184,3 +184,86 @@ body{
 .user-img{
 border-radius: 50%;
 }
+/* focus */
+.focus{
+    max-width: 1140px;
+max-height: 697px;
+background-color: #FFFFFF;
+margin: 137px 151px 0px 149px;
+border-radius: 10px;
+}
+.sec-head{
+    font-size: 34px;
+    text-align: center;
+    padding-top: 65px;
+}
+.ftext{
+    padding-top: 20px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+}
+.fbutton{
+    text-align: center;
+    padding-top: 20px;
+}
+.fimage{
+    padding: 20px 150px 71px 150px;
+    text-align: center;
+  
+
+}
+.ffimage{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 48px;
+}
+/* form */
+.formmm-section{
+    max-width: 1140px;
+    max-height: 632px;
+    margin:92px 150px 14px 150px
+}
+.formm{
+    padding:71px 0px 71px 0px;;
+}
+.contentt{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    }
+
+.textt{
+    font-size: 65px;
+    font-weight: 800;
+    max-width:528px ;
+    max-height: 232px;
+}
+body input[type="text"],
+body input[type="email"]
+ {
+    height:70px ;
+    width: 497px;
+    display: block;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    padding :10px 20px;
+}
+body textarea{
+    width: 497px;
+    height: 100px;
+    display : block;
+     background-color: white;
+    border-radius: 10px;
+    border: none;
+    color: rgba(0, 0, 0, 0.74);
+    font-size: 18px;
+    padding :10px 20px;
+}
+#last{
+    margin-top: 19px;
+    width: 497px;
+}
