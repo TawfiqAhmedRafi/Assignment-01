@@ -26,6 +26,10 @@
     border-radius: 10px;
     border: none;
     font-weight:bold;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+.btn-primary:hover {
+    background-color: #f3f702; /* darker blue on hover */
 }
 /* header  */
 .header{
@@ -69,6 +73,9 @@ nav {
     margin-top: 35px;
 }
 /* body styles */
+body{
+    background-color: #f5f8ff;
+}
 /* see it section */
 .see-it{
     margin: 116px 141px 0px 159px
@@ -143,4 +150,37 @@ nav {
     font-weight: 800;
     margin-bottom: 50px;
 }
+.review{
+    display: flex;
+    gap:20px;
+}
+.feedback{
+    padding: 24px;
+    background-color: rgba(255, 255, 255, .5)   ;
+    border-radius: 14px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05); 
+   max-height: 243px;           
+  max-width: 366px;       
+  
+          
 
+}
+.star-image{
+    padding-bottom: 24px;
+}
+.star{
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+    }
+.para{
+    padding-top: 8px;
+}
+.reviewer{
+    padding-top: 24px;
+    display: flex;
+    gap: 12px;
+}
+.user-img{
+border-radius: 50%;
+}
